@@ -1,0 +1,457 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E424B2F72C6A785400CFD1A0 /* QuizManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E424B2F62C6A785400CFD1A0 /* QuizManager.swift */; };
+		E441A5AE2C6B0C0100D8B38F /* learnpage3.swift in Sources */ = {isa = PBXBuildFile; fileRef = E441A5AD2C6B0C0100D8B38F /* learnpage3.swift */; };
+		E4456F752C68109300673383 /* SwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4456F742C68109300673383 /* SwiftUIView.swift */; };
+		E4456F772C682F0400673383 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4456F762C682F0400673383 /* HomeView.swift */; };
+		E4456F792C68334000673383 /* level1.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4456F782C68334000673383 /* level1.swift */; };
+		E4456F862C69BA7800673383 /* QuestionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4456F852C69BA7800673383 /* QuestionView.swift */; };
+		E48E31EB2C65277800EDB4D4 /* bloodwiseApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E48E31EA2C65277800EDB4D4 /* bloodwiseApp.swift */; };
+		E48E31ED2C65277800EDB4D4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E48E31EC2C65277800EDB4D4 /* ContentView.swift */; };
+		E48E31EF2C65277900EDB4D4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E48E31EE2C65277900EDB4D4 /* Assets.xcassets */; };
+		E48E31F22C65277900EDB4D4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E48E31F12C65277900EDB4D4 /* Preview Assets.xcassets */; };
+		E48E31F92C65279D00EDB4D4 /* QuizView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E48E31F82C65279D00EDB4D4 /* QuizView.swift */; };
+		E48E31FD2C6527BD00EDB4D4 /* ProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E48E31FC2C6527BD00EDB4D4 /* ProgressView.swift */; };
+		E48E31FF2C6527D900EDB4D4 /* InfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E48E31FE2C6527D900EDB4D4 /* InfoView.swift */; };
+		E4CCDEC12C6A85FE00B977E9 /* Supabase in Frameworks */ = {isa = PBXBuildFile; productRef = E4CCDEC02C6A85FE00B977E9 /* Supabase */; };
+		E4CCDEC42C6AA1A200B977E9 /* Learnpage1.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4CCDEC32C6AA1A200B977E9 /* Learnpage1.swift */; };
+		E4CCDEC62C6AA32E00B977E9 /* learnpage2.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4CCDEC52C6AA32E00B977E9 /* learnpage2.swift */; };
+		E4F60C2A2C9E6EC600873860 /* ResultsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4F60C292C9E6EC600873860 /* ResultsView.swift */; };
+		E4F60C2C2C9E6ED200873860 /* StartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4F60C2B2C9E6ED200873860 /* StartView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E424B2F62C6A785400CFD1A0 /* QuizManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizManager.swift; sourceTree = "<group>"; };
+		E441A5AD2C6B0C0100D8B38F /* learnpage3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = learnpage3.swift; sourceTree = "<group>"; };
+		E4456F742C68109300673383 /* SwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIView.swift; sourceTree = "<group>"; };
+		E4456F762C682F0400673383 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		E4456F782C68334000673383 /* level1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = level1.swift; sourceTree = "<group>"; };
+		E4456F852C69BA7800673383 /* QuestionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionView.swift; sourceTree = "<group>"; };
+		E48E31E72C65277800EDB4D4 /* BloodWise.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BloodWise.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E48E31EA2C65277800EDB4D4 /* bloodwiseApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bloodwiseApp.swift; sourceTree = "<group>"; };
+		E48E31EC2C65277800EDB4D4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		E48E31EE2C65277900EDB4D4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E48E31F12C65277900EDB4D4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E48E31F82C65279D00EDB4D4 /* QuizView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizView.swift; sourceTree = "<group>"; };
+		E48E31FC2C6527BD00EDB4D4 /* ProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressView.swift; sourceTree = "<group>"; };
+		E48E31FE2C6527D900EDB4D4 /* InfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoView.swift; sourceTree = "<group>"; };
+		E4CCDEC32C6AA1A200B977E9 /* Learnpage1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Learnpage1.swift; sourceTree = "<group>"; };
+		E4CCDEC52C6AA32E00B977E9 /* learnpage2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = learnpage2.swift; sourceTree = "<group>"; };
+		E4F60C292C9E6EC600873860 /* ResultsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultsView.swift; sourceTree = "<group>"; };
+		E4F60C2B2C9E6ED200873860 /* StartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E48E31E42C65277800EDB4D4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4CCDEC12C6A85FE00B977E9 /* Supabase in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E4456F7E2C6833D400673383 /* Levels */ = {
+			isa = PBXGroup;
+			children = (
+				E4456F782C68334000673383 /* level1.swift */,
+				E4456F852C69BA7800673383 /* QuestionView.swift */,
+				E424B2F62C6A785400CFD1A0 /* QuizManager.swift */,
+				E4F60C292C9E6EC600873860 /* ResultsView.swift */,
+				E4F60C2B2C9E6ED200873860 /* StartView.swift */,
+			);
+			path = Levels;
+			sourceTree = "<group>";
+		};
+		E4456F7F2C68348D00673383 /* tabs */ = {
+			isa = PBXGroup;
+			children = (
+				E4456F762C682F0400673383 /* HomeView.swift */,
+				E48E31FE2C6527D900EDB4D4 /* InfoView.swift */,
+				E48E31FC2C6527BD00EDB4D4 /* ProgressView.swift */,
+				E4CCDEC22C6AA17B00B977E9 /* New Group */,
+				E48E31F82C65279D00EDB4D4 /* QuizView.swift */,
+			);
+			path = tabs;
+			sourceTree = "<group>";
+		};
+		E48E31DE2C65277800EDB4D4 = {
+			isa = PBXGroup;
+			children = (
+				E48E31E92C65277800EDB4D4 /* bloodwise */,
+				E48E31E82C65277800EDB4D4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E48E31E82C65277800EDB4D4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E48E31E72C65277800EDB4D4 /* BloodWise.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E48E31E92C65277800EDB4D4 /* bloodwise */ = {
+			isa = PBXGroup;
+			children = (
+				E48E31EA2C65277800EDB4D4 /* bloodwiseApp.swift */,
+				E48E31EC2C65277800EDB4D4 /* ContentView.swift */,
+				E4456F742C68109300673383 /* SwiftUIView.swift */,
+				E4456F7F2C68348D00673383 /* tabs */,
+				E4456F7E2C6833D400673383 /* Levels */,
+				E48E31F02C65277900EDB4D4 /* Preview Content */,
+			);
+			path = bloodwise;
+			sourceTree = "<group>";
+		};
+		E48E31F02C65277900EDB4D4 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				E48E31EE2C65277900EDB4D4 /* Assets.xcassets */,
+				E48E31F12C65277900EDB4D4 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		E4CCDEC22C6AA17B00B977E9 /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+				E4CCDEC32C6AA1A200B977E9 /* Learnpage1.swift */,
+				E4CCDEC52C6AA32E00B977E9 /* learnpage2.swift */,
+				E441A5AD2C6B0C0100D8B38F /* learnpage3.swift */,
+			);
+			path = "New Group";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E48E31E62C65277800EDB4D4 /* BloodWise */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E48E31F52C65277900EDB4D4 /* Build configuration list for PBXNativeTarget "BloodWise" */;
+			buildPhases = (
+				E48E31E32C65277800EDB4D4 /* Sources */,
+				E48E31E42C65277800EDB4D4 /* Frameworks */,
+				E48E31E52C65277800EDB4D4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BloodWise;
+			packageProductDependencies = (
+				E4CCDEC02C6A85FE00B977E9 /* Supabase */,
+			);
+			productName = bloodquest;
+			productReference = E48E31E72C65277800EDB4D4 /* BloodWise.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E48E31DF2C65277800EDB4D4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					E48E31E62C65277800EDB4D4 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+				};
+			};
+			buildConfigurationList = E48E31E22C65277800EDB4D4 /* Build configuration list for PBXProject "BloodWise" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E48E31DE2C65277800EDB4D4;
+			packageReferences = (
+				E4CCDEBF2C6A85FE00B977E9 /* XCRemoteSwiftPackageReference "supabase-swift" */,
+			);
+			productRefGroup = E48E31E82C65277800EDB4D4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E48E31E62C65277800EDB4D4 /* BloodWise */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E48E31E52C65277800EDB4D4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E48E31F22C65277900EDB4D4 /* Preview Assets.xcassets in Resources */,
+				E48E31EF2C65277900EDB4D4 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E48E31E32C65277800EDB4D4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4456F792C68334000673383 /* level1.swift in Sources */,
+				E48E31ED2C65277800EDB4D4 /* ContentView.swift in Sources */,
+				E4456F772C682F0400673383 /* HomeView.swift in Sources */,
+				E4CCDEC62C6AA32E00B977E9 /* learnpage2.swift in Sources */,
+				E48E31FD2C6527BD00EDB4D4 /* ProgressView.swift in Sources */,
+				E4456F862C69BA7800673383 /* QuestionView.swift in Sources */,
+				E4F60C2C2C9E6ED200873860 /* StartView.swift in Sources */,
+				E4456F752C68109300673383 /* SwiftUIView.swift in Sources */,
+				E48E31EB2C65277800EDB4D4 /* bloodwiseApp.swift in Sources */,
+				E4CCDEC42C6AA1A200B977E9 /* Learnpage1.swift in Sources */,
+				E424B2F72C6A785400CFD1A0 /* QuizManager.swift in Sources */,
+				E48E31FF2C6527D900EDB4D4 /* InfoView.swift in Sources */,
+				E4F60C2A2C9E6EC600873860 /* ResultsView.swift in Sources */,
+				E48E31F92C65279D00EDB4D4 /* QuizView.swift in Sources */,
+				E441A5AE2C6B0C0100D8B38F /* learnpage3.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		E48E31F32C65277900EDB4D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E48E31F42C65277900EDB4D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E48E31F62C65277900EDB4D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"bloodwise/Preview Content\"";
+				DEVELOPMENT_TEAM = 66ZFMBSHZN;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Blood Wise";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Isabella-Bond.bloodwise";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		E48E31F72C65277900EDB4D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"bloodwise/Preview Content\"";
+				DEVELOPMENT_TEAM = 66ZFMBSHZN;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Blood Wise";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Isabella-Bond.bloodwise";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E48E31E22C65277800EDB4D4 /* Build configuration list for PBXProject "BloodWise" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E48E31F32C65277900EDB4D4 /* Debug */,
+				E48E31F42C65277900EDB4D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E48E31F52C65277900EDB4D4 /* Build configuration list for PBXNativeTarget "BloodWise" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E48E31F62C65277900EDB4D4 /* Debug */,
+				E48E31F72C65277900EDB4D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		E4CCDEBF2C6A85FE00B977E9 /* XCRemoteSwiftPackageReference "supabase-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/supabase/supabase-swift.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.2.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		E4CCDEC02C6A85FE00B977E9 /* Supabase */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E4CCDEBF2C6A85FE00B977E9 /* XCRemoteSwiftPackageReference "supabase-swift" */;
+			productName = Supabase;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = E48E31DF2C65277800EDB4D4 /* Project object */;
+}
