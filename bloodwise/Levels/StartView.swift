@@ -21,6 +21,13 @@ struct StartView: View {
             } label: {
                 Text("start")
             }
+            .padding()
+            .foregroundColor(Color.white)
+            .background(
+                RoundedRectangle(cornerRadius: 20, style: .continuous)
+                    .fill(Color("AccentColor"))
+                    .frame(width: 330))
+
         }
         .frame(maxWidth: .infinity, maxHeight: .infinity, alignment: .top)
         .padding(.top)
