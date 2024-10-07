@@ -8,21 +8,28 @@
 import SwiftUI
 struct introtolearnView: View {
     var body: some View {
-        NavigationStack{
-            List {
-                NavigationLink(destination: Learnpage1()){
-                    Text("Bacterial Sepsis")
+        VStack {
+            NavigationStack{
+                List {
+                    NavigationLink(destination: BacterialSepsis()){
+                        Text("Bacterial Sepsis")
+                    }
+                    NavigationLink(destination: Meningitis()){
+                        Text("Meningitis")
+                    }
+                    NavigationLink(destination: Viraldiseases()){
+                        Text("Viral Diseases")
+                    }
+                    NavigationLink(destination: Malaria()){
+                        Text("Malaria")
+                    }
                 }
-                NavigationLink(destination: learnpage2()){
-                    Text("Meningitis")
-                }
-                NavigationLink(destination: learnpage3()){
-                    Text("Malaria")
-                }
+                .scrollContentBackground(.hidden)
+                .background(.whitenblack)
+                .navigationTitle("Learn: Causes And Types Of Sepsis")
+                .multilineTextAlignment(.center)
+                .foregroundColor(Color("AccentColor"))
             }
-            .navigationTitle("Learn about Types of Sepsis")
-            .multilineTextAlignment(.center)
-            .foregroundColor(Color("AccentColor"))
         }
     }
         struct introtolearnView_Previews: PreviewProvider {

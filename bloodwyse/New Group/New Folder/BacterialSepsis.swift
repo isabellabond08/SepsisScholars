@@ -26,6 +26,9 @@ struct BacterialSepsis: View {
                     NavigationLink(destination: learnpage3()){
                         Text("Group A Streptococcal from Cellulitis")
                     }
+                    NavigationLink(destination: learnpage4()){
+                        Text("MRSA")
+                    }
                 }
                 .scrollContentBackground(.hidden)
                 .background(.whitenblack)

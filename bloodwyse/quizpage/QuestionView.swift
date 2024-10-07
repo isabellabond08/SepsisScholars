@@ -33,25 +33,26 @@ struct QuestionView: View {
                 Text(question.title)
                     .foregroundColor(.white)
                     .multilineTextAlignment(.center)
+                    .fontWeight(.semibold)
                 ForEach(question.options, id:\.self) { option in
                     HStack {
                         
                         Button {
                             question.selection = option
                             print(option)
+
                         } label: {
                             if question.selection == option {
                                 Circle()
                                 
                                     .shadow(radius: 3)
-                                    .frame(width: 24, height: 24)
+                                    .frame(width: 24, height: 24, alignment: .leading)
                             } else {
                                 Circle()
                                     .stroke()
                                     .shadow(radius: 3)
-                                    .frame(width: 24, height: 24)
+                                    .frame(width: 24, height: 24, alignment: .leading)
                             }
-                            
                         }
                         
                         Text(option)
@@ -60,11 +61,12 @@ struct QuestionView: View {
                     .padding(.top)
                 }
             }
-            .padding(.horizontal,20)
+            .padding(.trailing,20)
+            .padding(.leading,20)
             .frame(width: 300, height: 550)
             .background(Color("AccentColor"))
-            .cornerRadius(20)
-            .shadow(radius: 20)
+            .cornerRadius(70)
+            .shadow(radius: 10)
     }
 }
     struct QuestionView_Previews: PreviewProvider {

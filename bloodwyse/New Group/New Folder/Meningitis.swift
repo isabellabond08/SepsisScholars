@@ -11,11 +11,16 @@ struct Meningitis: View {
     var body: some View {
         VStack {
             Spacer()
-            Text("Types of Meningitis and The Symptoms")
+            Text("Types of Meningitis and The Causes")
                 .font(.title)
                 .fontWeight(.bold)
                 .multilineTextAlignment(.center)
                 .padding(.horizontal, 20)
+            Spacer()
+            Text("Meningitis Symptoms : Stiff neck, Photophobia (sensitivity to bright fight), Sudden onset of fever, Headache, Nausea, Vomiting, and Confusion.")
+                .padding(.horizontal, 30)
+                .multilineTextAlignment(.center)
+                
             NavigationStack{
                 List {
                     NavigationLink(destination: learnpage12()){

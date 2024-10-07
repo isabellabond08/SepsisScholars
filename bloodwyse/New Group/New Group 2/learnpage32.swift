@@ -5,6 +5,9 @@
 //  Created by Viviana Rivera on 9/24/24.
 //
 
+import SwiftUI
+
+
 struct learnpage32: View {
     var body: some View {
         ScrollView {
@@ -18,11 +21,20 @@ struct learnpage32: View {
                     .fontWeight(.heavy)
                     .foregroundColor(Color("AccentColor"))
                 Divider()
-                Text("Fevers, chills, low blood pressure, fast pulse, problems breathing, very little urination, confusion, Fatigue, Nausea, vomiting, diarrhea, pain(worse than you would expect from the injury you see or in an area that is not directly connected to the original cut), black spots, possible pneumonia, possible uti, injury/cut with a shiny-redness around the perimeter of the scab area, Possible pus or other fluid leaking from cut, and/or Possible warmer than usual skin around cut.")
+                Text("Learn what causes are unique!")
                     .padding(.horizontal, 40)
                     .font(.system(size: 20))
                     .multilineTextAlignment(.center)
+                    .foregroundColor(Color("AccentColor"))
                 
+                Text("Fungal meningitis is the rarest of the three. For fungal meningitis to develop, a fungal infection must spread through the blood stream to the spinal cord.")
+                    .padding(.horizontal, 40)
+                    .font(.system(size: 20))
+                    .multilineTextAlignment(.center)
+                Text("Caused by recent close contact with soil heavily contaminated with bird or bat droppings, immunosuppressed, recent stay at hospital; or recent visit to the Midwest (Ohio and Mississippi River), Southwest US and/or Central or South America.")
+                    .padding(.horizontal, 40)
+                    .font(.system(size: 20))
+                    .multilineTextAlignment(.center)
                     Spacer()
                     Spacer()
                     Spacer()

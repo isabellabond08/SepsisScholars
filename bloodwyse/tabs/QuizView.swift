@@ -11,7 +11,7 @@ struct QuizView: View {
     var body: some View {
         
         VStack {
-            level1()
+            FullquestionView()
             //add start quiz page 
         }
                     

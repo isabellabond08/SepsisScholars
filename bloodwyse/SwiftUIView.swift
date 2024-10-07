@@ -21,10 +21,9 @@ struct SwiftUIView: View {
     var body: some View {
         ZStack {
             Capsule()
-                .frame(height: 80)
+                .frame(width: 380, height: 80)
                 .foregroundColor(Color("AccentColor"))
-                .shadow(radius: 4)
-            
+                .shadow(radius: 5)
             HStack {
                 ForEach(0..<4) { index in
                     Button {

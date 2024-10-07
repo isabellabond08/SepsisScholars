@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 56;
+	objectVersion = 70;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -12,9 +12,7 @@
 		E40C811D2C9F46D300A517A5 /* learnpage2.swift in Sources */ = {isa = PBXBuildFile; fileRef = E40C810D2C9F46D200A517A5 /* learnpage2.swift */; };
 		E40C811E2C9F46D300A517A5 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E40C81102C9F46D200A517A5 /* HomeView.swift */; };
 		E40C811F2C9F46D300A517A5 /* InfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E40C81112C9F46D200A517A5 /* InfoView.swift */; };
-		E40C81202C9F46D300A517A5 /* SplashScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E40C81182C9F46D200A517A5 /* SplashScreenView.swift */; };
 		E40C81212C9F46D300A517A5 /* QuizView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E40C81132C9F46D200A517A5 /* QuizView.swift */; };
-		E40C81222C9F46D300A517A5 /* level1.swift in Sources */ = {isa = PBXBuildFile; fileRef = E40C81012C9F46D200A517A5 /* level1.swift */; };
 		E40C81232C9F46D300A517A5 /* bloodwyseApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E40C81162C9F46D200A517A5 /* bloodwyseApp.swift */; };
 		E40C81242C9F46D300A517A5 /* SwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E40C81192C9F46D200A517A5 /* SwiftUIView.swift */; };
 		E40C81252C9F46D300A517A5 /* introtolearnView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E40C810B2C9F46D200A517A5 /* introtolearnView.swift */; };
@@ -23,17 +21,19 @@
 		E40C81282C9F46D300A517A5 /* ResultsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E40C81052C9F46D200A517A5 /* ResultsView.swift */; };
 		E40C81292C9F46D300A517A5 /* QuestionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E40C81032C9F46D200A517A5 /* QuestionView.swift */; };
 		E40C812A2C9F46D300A517A5 /* StartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E40C81062C9F46D200A517A5 /* StartView.swift */; };
-		E40C812B2C9F46D300A517A5 /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E40C81142C9F46D200A517A5 /* WelcomeView.swift */; };
 		E40C812C2C9F46D300A517A5 /* learnpage3.swift in Sources */ = {isa = PBXBuildFile; fileRef = E40C810E2C9F46D200A517A5 /* learnpage3.swift */; };
 		E40C812D2C9F46D300A517A5 /* Learnpage1.swift in Sources */ = {isa = PBXBuildFile; fileRef = E40C810C2C9F46D200A517A5 /* Learnpage1.swift */; };
-		E40C812E2C9F46D300A517A5 /* level3.swift in Sources */ = {isa = PBXBuildFile; fileRef = E40C81022C9F46D200A517A5 /* level3.swift */; };
 		E40C812F2C9F46D300A517A5 /* QuizManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E40C81042C9F46D200A517A5 /* QuizManager.swift */; };
+		E4381D472CB2FA640077E275 /* learnpage3.0.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4381D462CB2FA640077E275 /* learnpage3.0.swift */; };
+		E4381D492CB2FA780077E275 /* learnpage3.1.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4381D482CB2FA780077E275 /* learnpage3.1.swift */; };
+		E4381D4B2CB2FA860077E275 /* learnpage3.2.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4381D4A2CB2FA860077E275 /* learnpage3.2.swift */; };
+		E44BBF212CA2684400A3B5A0 /* learnpage4.swift in Sources */ = {isa = PBXBuildFile; fileRef = E44BBF202CA2684400A3B5A0 /* learnpage4.swift */; };
+		E4957FC62C9F4DDA00DE05D2 /* FullquestionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4957FC52C9F4DDA00DE05D2 /* FullquestionView.swift */; };
 		E4CCDEC12C6A85FE00B977E9 /* Supabase in Frameworks */ = {isa = PBXBuildFile; productRef = E4CCDEC02C6A85FE00B977E9 /* Supabase */; };
+		E4E89BF92CB37C2A002EDC8E /* learnpage3.3.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4E89BF82CB37C2A002EDC8E /* learnpage3.3.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		E40C81012C9F46D200A517A5 /* level1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = level1.swift; sourceTree = "<group>"; };
-		E40C81022C9F46D200A517A5 /* level3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = level3.swift; sourceTree = "<group>"; };
 		E40C81032C9F46D200A517A5 /* QuestionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionView.swift; sourceTree = "<group>"; };
 		E40C81042C9F46D200A517A5 /* QuizManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizManager.swift; sourceTree = "<group>"; };
 		E40C81052C9F46D200A517A5 /* ResultsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultsView.swift; sourceTree = "<group>"; };
@@ -48,13 +48,22 @@
 		E40C81112C9F46D200A517A5 /* InfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoView.swift; sourceTree = "<group>"; };
 		E40C81122C9F46D200A517A5 /* ProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressView.swift; sourceTree = "<group>"; };
 		E40C81132C9F46D200A517A5 /* QuizView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizView.swift; sourceTree = "<group>"; };
-		E40C81142C9F46D200A517A5 /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
 		E40C81162C9F46D200A517A5 /* bloodwyseApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bloodwyseApp.swift; sourceTree = "<group>"; };
 		E40C81172C9F46D200A517A5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		E40C81182C9F46D200A517A5 /* SplashScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreenView.swift; sourceTree = "<group>"; };
 		E40C81192C9F46D200A517A5 /* SwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIView.swift; sourceTree = "<group>"; };
+		E4381D462CB2FA640077E275 /* learnpage3.0.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = learnpage3.0.swift; sourceTree = "<group>"; };
+		E4381D482CB2FA780077E275 /* learnpage3.1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = learnpage3.1.swift; sourceTree = "<group>"; };
+		E4381D4A2CB2FA860077E275 /* learnpage3.2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = learnpage3.2.swift; sourceTree = "<group>"; };
+		E44BBF202CA2684400A3B5A0 /* learnpage4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = learnpage4.swift; sourceTree = "<group>"; };
 		E48E31E72C65277800EDB4D4 /* BloodWise.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BloodWise.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E4957FC52C9F4DDA00DE05D2 /* FullquestionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FullquestionView.swift; sourceTree = "<group>"; };
+		E4E89BF82CB37C2A002EDC8E /* learnpage3.3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = learnpage3.3.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		E44BBEFF2CA2399D00A3B5A0 /* New Folder */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = "New Folder"; sourceTree = "<group>"; };
+		E44BBF322CA301F200A3B5A0 /* New Group 2 */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = "New Group 2"; sourceTree = "<group>"; };
+/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		E48E31E42C65277800EDB4D4 /* Frameworks */ = {
@@ -68,19 +77,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		E40C81072C9F46D200A517A5 /* Levels */ = {
-			isa = PBXGroup;
-			children = (
-				E40C81012C9F46D200A517A5 /* level1.swift */,
-				E40C81022C9F46D200A517A5 /* level3.swift */,
-				E40C81032C9F46D200A517A5 /* QuestionView.swift */,
-				E40C81042C9F46D200A517A5 /* QuizManager.swift */,
-				E40C81052C9F46D200A517A5 /* ResultsView.swift */,
-				E40C81062C9F46D200A517A5 /* StartView.swift */,
-			);
-			path = Levels;
-			sourceTree = "<group>";
-		};
 		E40C810A2C9F46D200A517A5 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
@@ -94,9 +90,10 @@
 			isa = PBXGroup;
 			children = (
 				E40C810B2C9F46D200A517A5 /* introtolearnView.swift */,
-				E40C810C2C9F46D200A517A5 /* Learnpage1.swift */,
-				E40C810D2C9F46D200A517A5 /* learnpage2.swift */,
-				E40C810E2C9F46D200A517A5 /* learnpage3.swift */,
+				E44BBEFF2CA2399D00A3B5A0 /* New Folder */,
+				E4381D452CB2FA230077E275 /* New Group 3 */,
+				E44BBF322CA301F200A3B5A0 /* New Group 2 */,
+				E44BBF042CA23C1400A3B5A0 /* New Group */,
 			);
 			path = "New Group";
 			sourceTree = "<group>";
@@ -104,12 +101,10 @@
 		E40C81152C9F46D200A517A5 /* tabs */ = {
 			isa = PBXGroup;
 			children = (
-				E40C810F2C9F46D200A517A5 /* New Group */,
+				E40C81132C9F46D200A517A5 /* QuizView.swift */,
 				E40C81102C9F46D200A517A5 /* HomeView.swift */,
 				E40C81112C9F46D200A517A5 /* InfoView.swift */,
 				E40C81122C9F46D200A517A5 /* ProgressView.swift */,
-				E40C81132C9F46D200A517A5 /* QuizView.swift */,
-				E40C81142C9F46D200A517A5 /* WelcomeView.swift */,
 			);
 			path = tabs;
 			sourceTree = "<group>";
@@ -117,15 +112,37 @@
 		E40C811A2C9F46D200A517A5 /* bloodwyse */ = {
 			isa = PBXGroup;
 			children = (
-				E40C81072C9F46D200A517A5 /* Levels */,
+				E4957FC42C9F4CD000DE05D2 /* quizpage */,
 				E40C810A2C9F46D200A517A5 /* Preview Content */,
 				E40C81152C9F46D200A517A5 /* tabs */,
+				E40C810F2C9F46D200A517A5 /* New Group */,
 				E40C81162C9F46D200A517A5 /* bloodwyseApp.swift */,
 				E40C81192C9F46D200A517A5 /* SwiftUIView.swift */,
 				E40C81172C9F46D200A517A5 /* ContentView.swift */,
-				E40C81182C9F46D200A517A5 /* SplashScreenView.swift */,
 			);
 			path = bloodwyse;
+			sourceTree = "<group>";
+		};
+		E4381D452CB2FA230077E275 /* New Group 3 */ = {
+			isa = PBXGroup;
+			children = (
+				E4381D462CB2FA640077E275 /* learnpage3.0.swift */,
+				E4381D482CB2FA780077E275 /* learnpage3.1.swift */,
+				E4381D4A2CB2FA860077E275 /* learnpage3.2.swift */,
+				E4E89BF82CB37C2A002EDC8E /* learnpage3.3.swift */,
+			);
+			path = "New Group 3";
+			sourceTree = "<group>";
+		};
+		E44BBF042CA23C1400A3B5A0 /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+				E40C810C2C9F46D200A517A5 /* Learnpage1.swift */,
+				E40C810D2C9F46D200A517A5 /* learnpage2.swift */,
+				E40C810E2C9F46D200A517A5 /* learnpage3.swift */,
+				E44BBF202CA2684400A3B5A0 /* learnpage4.swift */,
+			);
+			path = "New Group";
 			sourceTree = "<group>";
 		};
 		E48E31DE2C65277800EDB4D4 = {
@@ -144,6 +161,18 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		E4957FC42C9F4CD000DE05D2 /* quizpage */ = {
+			isa = PBXGroup;
+			children = (
+				E40C81032C9F46D200A517A5 /* QuestionView.swift */,
+				E40C81042C9F46D200A517A5 /* QuizManager.swift */,
+				E40C81052C9F46D200A517A5 /* ResultsView.swift */,
+				E40C81062C9F46D200A517A5 /* StartView.swift */,
+				E4957FC52C9F4DDA00DE05D2 /* FullquestionView.swift */,
+			);
+			path = quizpage;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -158,6 +187,10 @@
 			buildRules = (
 			);
 			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				E44BBEFF2CA2399D00A3B5A0 /* New Folder */,
+				E44BBF322CA301F200A3B5A0 /* New Group 2 */,
 			);
 			name = BloodWise;
 			packageProductDependencies = (
@@ -223,21 +256,23 @@
 				E40C811D2C9F46D300A517A5 /* learnpage2.swift in Sources */,
 				E40C811E2C9F46D300A517A5 /* HomeView.swift in Sources */,
 				E40C811F2C9F46D300A517A5 /* InfoView.swift in Sources */,
-				E40C81202C9F46D300A517A5 /* SplashScreenView.swift in Sources */,
 				E40C81212C9F46D300A517A5 /* QuizView.swift in Sources */,
-				E40C81222C9F46D300A517A5 /* level1.swift in Sources */,
 				E40C81232C9F46D300A517A5 /* bloodwyseApp.swift in Sources */,
+				E4381D472CB2FA640077E275 /* learnpage3.0.swift in Sources */,
 				E40C81242C9F46D300A517A5 /* SwiftUIView.swift in Sources */,
 				E40C81252C9F46D300A517A5 /* introtolearnView.swift in Sources */,
 				E40C81262C9F46D300A517A5 /* ProgressView.swift in Sources */,
 				E40C81272C9F46D300A517A5 /* ContentView.swift in Sources */,
+				E4957FC62C9F4DDA00DE05D2 /* FullquestionView.swift in Sources */,
+				E44BBF212CA2684400A3B5A0 /* learnpage4.swift in Sources */,
+				E4E89BF92CB37C2A002EDC8E /* learnpage3.3.swift in Sources */,
 				E40C81282C9F46D300A517A5 /* ResultsView.swift in Sources */,
+				E4381D492CB2FA780077E275 /* learnpage3.1.swift in Sources */,
 				E40C81292C9F46D300A517A5 /* QuestionView.swift in Sources */,
 				E40C812A2C9F46D300A517A5 /* StartView.swift in Sources */,
-				E40C812B2C9F46D300A517A5 /* WelcomeView.swift in Sources */,
+				E4381D4B2CB2FA860077E275 /* learnpage3.2.swift in Sources */,
 				E40C812C2C9F46D300A517A5 /* learnpage3.swift in Sources */,
 				E40C812D2C9F46D300A517A5 /* Learnpage1.swift in Sources */,
-				E40C812E2C9F46D300A517A5 /* level3.swift in Sources */,
 				E40C812F2C9F46D300A517A5 /* QuizManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -368,11 +403,11 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"bloodwise/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"bloodwyse/Preview Content\"";
 				DEVELOPMENT_TEAM = 66ZFMBSHZN;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_CFBundleDisplayName = "Blood Wise";
+				INFOPLIST_KEY_CFBundleDisplayName = "Sepsis Scholars";
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -402,11 +437,11 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"bloodwise/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"bloodwyse/Preview Content\"";
 				DEVELOPMENT_TEAM = 66ZFMBSHZN;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_CFBundleDisplayName = "Blood Wise";
+				INFOPLIST_KEY_CFBundleDisplayName = "Sepsis Scholars";
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;

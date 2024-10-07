@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
    LastUpgradeVersion = "1600"
-   version = "2.2">
+   version = "1.7">
    <BuildAction
       parallelizeBuildables = "YES"
       buildImplicitDependencies = "YES"
-      buildArchitectures = "All">
+      buildArchitectures = "Automatic">
       <BuildActionEntries>
          <BuildActionEntry
             buildForTesting = "YES"
@@ -18,17 +18,8 @@
                BlueprintIdentifier = "E48E31E62C65277800EDB4D4"
                BuildableName = "BloodWise.app"
                BlueprintName = "BloodWise"
-               ReferencedContainer = "container:BloodWise.xcodeproj">
+               ReferencedContainer = "container:bloodquest.xcodeproj">
             </BuildableReference>
-         </BuildActionEntry>
-         <BuildActionEntry
-            buildForTesting = "YES"
-            buildForRunning = "NO"
-            buildForProfiling = "NO"
-            buildForArchiving = "NO"
-            buildForAnalyzing = "NO">
-            <AutocreatedTestPlanReference>
-            </AutocreatedTestPlanReference>
          </BuildActionEntry>
       </BuildActionEntries>
    </BuildAction>
@@ -56,7 +47,7 @@
             BlueprintIdentifier = "E48E31E62C65277800EDB4D4"
             BuildableName = "BloodWise.app"
             BlueprintName = "BloodWise"
-            ReferencedContainer = "container:BloodWise.xcodeproj">
+            ReferencedContainer = "container:bloodquest.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </LaunchAction>
@@ -73,25 +64,15 @@
             BlueprintIdentifier = "E48E31E62C65277800EDB4D4"
             BuildableName = "BloodWise.app"
             BlueprintName = "BloodWise"
-            ReferencedContainer = "container:BloodWise.xcodeproj">
+            ReferencedContainer = "container:bloodquest.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
-      <MacroExpansion>
-         <BuildableReference
-            BuildableIdentifier = "primary"
-            BlueprintIdentifier = "E48E31E62C65277800EDB4D4"
-            BuildableName = "BloodWise.app"
-            BlueprintName = "BloodWise"
-            ReferencedContainer = "container:BloodWise.xcodeproj">
-         </BuildableReference>
-      </MacroExpansion>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">
    </AnalyzeAction>
    <ArchiveAction
       buildConfiguration = "Release"
-      customArchiveName = "bloodwyse"
       revealArchiveInOrganizer = "YES">
    </ArchiveAction>
 </Scheme>
