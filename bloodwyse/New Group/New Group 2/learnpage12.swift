@@ -20,7 +20,6 @@ struct learnpage12: View {
                     .fontWeight(.heavy)
                     .foregroundColor(Color("AccentColor"))
                 Divider()
-                Text("No unique symptoms or causes...")
                     .padding(.horizontal, 40)
                     .font(.system(size: 20))
                     .multilineTextAlignment(.center)
