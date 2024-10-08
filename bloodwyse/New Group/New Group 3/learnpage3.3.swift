@@ -26,7 +26,7 @@ struct Learnpage3_3: View {
                     .font(.system(size: 20))
                     .multilineTextAlignment(.center)
                     .foregroundColor(Color("AccentColor"))
-                Text("pain (worse than you would expect from the injury you see or in an area that is not directly connected to the original cut), black spots, possible pneumonia, possible uti, new injury/cut with a shiny-redness around the perimeter of the scab area, Possible pus or other fluid leaking from cut, and/or Possible warmer than usual skin around cut.")
+                Text("dehydration, pain or pressure in the chest or abdomen, high fever, severe vomiting, possibly had the flu recently, or was never vaccinated for the flu.")
                     .padding(.horizontal, 40)
                     .font(.system(size: 20))
                     .multilineTextAlignment(.center)

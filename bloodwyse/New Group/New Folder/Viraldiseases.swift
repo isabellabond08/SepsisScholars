@@ -18,9 +18,6 @@ struct Viraldiseases: View {
                 .padding(.horizontal, 20)
             NavigationStack{
                 List {
-                    NavigationLink(destination: Learnpage3_0()){
-                        Text("Viral Sepsis")
-                    }
                     NavigationLink(destination: Learnpage3_1()){
                         Text("Viral Meningitis")
                     }

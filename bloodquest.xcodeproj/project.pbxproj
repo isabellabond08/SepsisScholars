@@ -24,12 +24,11 @@
 		E40C812C2C9F46D300A517A5 /* learnpage3.swift in Sources */ = {isa = PBXBuildFile; fileRef = E40C810E2C9F46D200A517A5 /* learnpage3.swift */; };
 		E40C812D2C9F46D300A517A5 /* Learnpage1.swift in Sources */ = {isa = PBXBuildFile; fileRef = E40C810C2C9F46D200A517A5 /* Learnpage1.swift */; };
 		E40C812F2C9F46D300A517A5 /* QuizManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E40C81042C9F46D200A517A5 /* QuizManager.swift */; };
-		E4381D472CB2FA640077E275 /* learnpage3.0.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4381D462CB2FA640077E275 /* learnpage3.0.swift */; };
 		E4381D492CB2FA780077E275 /* learnpage3.1.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4381D482CB2FA780077E275 /* learnpage3.1.swift */; };
 		E4381D4B2CB2FA860077E275 /* learnpage3.2.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4381D4A2CB2FA860077E275 /* learnpage3.2.swift */; };
 		E44BBF212CA2684400A3B5A0 /* learnpage4.swift in Sources */ = {isa = PBXBuildFile; fileRef = E44BBF202CA2684400A3B5A0 /* learnpage4.swift */; };
 		E4957FC62C9F4DDA00DE05D2 /* FullquestionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4957FC52C9F4DDA00DE05D2 /* FullquestionView.swift */; };
-		E4CCDEC12C6A85FE00B977E9 /* Supabase in Frameworks */ = {isa = PBXBuildFile; productRef = E4CCDEC02C6A85FE00B977E9 /* Supabase */; };
+		E4C1CF882CB4CE55006A7294 /* Supabase in Frameworks */ = {isa = PBXBuildFile; productRef = E4C1CF872CB4CE55006A7294 /* Supabase */; };
 		E4E89BF92CB37C2A002EDC8E /* learnpage3.3.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4E89BF82CB37C2A002EDC8E /* learnpage3.3.swift */; };
 /* End PBXBuildFile section */
 
@@ -51,12 +50,12 @@
 		E40C81162C9F46D200A517A5 /* bloodwyseApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bloodwyseApp.swift; sourceTree = "<group>"; };
 		E40C81172C9F46D200A517A5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		E40C81192C9F46D200A517A5 /* SwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIView.swift; sourceTree = "<group>"; };
-		E4381D462CB2FA640077E275 /* learnpage3.0.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = learnpage3.0.swift; sourceTree = "<group>"; };
 		E4381D482CB2FA780077E275 /* learnpage3.1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = learnpage3.1.swift; sourceTree = "<group>"; };
 		E4381D4A2CB2FA860077E275 /* learnpage3.2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = learnpage3.2.swift; sourceTree = "<group>"; };
 		E44BBF202CA2684400A3B5A0 /* learnpage4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = learnpage4.swift; sourceTree = "<group>"; };
 		E48E31E72C65277800EDB4D4 /* BloodWise.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BloodWise.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4957FC52C9F4DDA00DE05D2 /* FullquestionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FullquestionView.swift; sourceTree = "<group>"; };
+		E4C1CF892CB4CE82006A7294 /* BloodWise-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "BloodWise-Info.plist"; sourceTree = "<group>"; };
 		E4E89BF82CB37C2A002EDC8E /* learnpage3.3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = learnpage3.3.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -70,7 +69,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E4CCDEC12C6A85FE00B977E9 /* Supabase in Frameworks */,
+				E4C1CF882CB4CE55006A7294 /* Supabase in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -126,7 +125,6 @@
 		E4381D452CB2FA230077E275 /* New Group 3 */ = {
 			isa = PBXGroup;
 			children = (
-				E4381D462CB2FA640077E275 /* learnpage3.0.swift */,
 				E4381D482CB2FA780077E275 /* learnpage3.1.swift */,
 				E4381D4A2CB2FA860077E275 /* learnpage3.2.swift */,
 				E4E89BF82CB37C2A002EDC8E /* learnpage3.3.swift */,
@@ -148,7 +146,9 @@
 		E48E31DE2C65277800EDB4D4 = {
 			isa = PBXGroup;
 			children = (
+				E4C1CF892CB4CE82006A7294 /* BloodWise-Info.plist */,
 				E40C811A2C9F46D200A517A5 /* bloodwyse */,
+				E4C1CF862CB4CE4F006A7294 /* Frameworks */,
 				E48E31E82C65277800EDB4D4 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -173,6 +173,13 @@
 			path = quizpage;
 			sourceTree = "<group>";
 		};
+		E4C1CF862CB4CE4F006A7294 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -194,7 +201,7 @@
 			);
 			name = BloodWise;
 			packageProductDependencies = (
-				E4CCDEC02C6A85FE00B977E9 /* Supabase */,
+				E4C1CF872CB4CE55006A7294 /* Supabase */,
 			);
 			productName = bloodquest;
 			productReference = E48E31E72C65277800EDB4D4 /* BloodWise.app */;
@@ -225,7 +232,7 @@
 			);
 			mainGroup = E48E31DE2C65277800EDB4D4;
 			packageReferences = (
-				E4CCDEBF2C6A85FE00B977E9 /* XCRemoteSwiftPackageReference "supabase-swift" */,
+				E4C1CF852CB4CDAA006A7294 /* XCRemoteSwiftPackageReference "supabase-swift" */,
 			);
 			productRefGroup = E48E31E82C65277800EDB4D4 /* Products */;
 			projectDirPath = "";
@@ -258,7 +265,6 @@
 				E40C811F2C9F46D300A517A5 /* InfoView.swift in Sources */,
 				E40C81212C9F46D300A517A5 /* QuizView.swift in Sources */,
 				E40C81232C9F46D300A517A5 /* bloodwyseApp.swift in Sources */,
-				E4381D472CB2FA640077E275 /* learnpage3.0.swift in Sources */,
 				E40C81242C9F46D300A517A5 /* SwiftUIView.swift in Sources */,
 				E40C81252C9F46D300A517A5 /* introtolearnView.swift in Sources */,
 				E40C81262C9F46D300A517A5 /* ProgressView.swift in Sources */,
@@ -403,10 +409,11 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"bloodwyse/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = bloodwyse;
 				DEVELOPMENT_TEAM = 66ZFMBSHZN;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "BloodWise-Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = "Sepsis Scholars";
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -419,7 +426,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.Isabella-Bond.bloodwise";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Isabella-Bond.sepsisscholars";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
@@ -437,10 +444,11 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"bloodwyse/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = bloodwyse;
 				DEVELOPMENT_TEAM = 66ZFMBSHZN;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "BloodWise-Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = "Sepsis Scholars";
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -453,7 +461,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.Isabella-Bond.bloodwise";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Isabella-Bond.sepsisscholars";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
@@ -488,20 +496,20 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		E4CCDEBF2C6A85FE00B977E9 /* XCRemoteSwiftPackageReference "supabase-swift" */ = {
+		E4C1CF852CB4CDAA006A7294 /* XCRemoteSwiftPackageReference "supabase-swift" */ = {
 			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/supabase/supabase-swift.git";
+			repositoryURL = "https://github.com/supabase/supabase-swift";
 			requirement = {
 				kind = upToNextMajorVersion;
-				minimumVersion = 0.2.1;
+				minimumVersion = 1.0.0;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		E4CCDEC02C6A85FE00B977E9 /* Supabase */ = {
+		E4C1CF872CB4CE55006A7294 /* Supabase */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = E4CCDEBF2C6A85FE00B977E9 /* XCRemoteSwiftPackageReference "supabase-swift" */;
+			package = E4C1CF852CB4CDAA006A7294 /* XCRemoteSwiftPackageReference "supabase-swift" */;
 			productName = Supabase;
 		};
 /* End XCSwiftPackageProductDependency section */

@@ -18,8 +18,8 @@ import Supabase
                 do {
                     let response = try await client.database.from("quiz1123").select().execute()
                     print("Response: \(response)")
-                    let data = response.underlyingResponse.data
-                    print(response.underlyingResponse.data)
+                    let data = response.data
+                    print(response.data)
                     let decoder = JSONDecoder()
                     decoder.keyDecodingStrategy = .convertFromSnakeCase
                     let questions = try decoder.decode([Question].self, from: data)

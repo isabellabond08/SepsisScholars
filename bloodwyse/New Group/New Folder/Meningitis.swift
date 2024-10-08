@@ -11,7 +11,7 @@ struct Meningitis: View {
     var body: some View {
         VStack {
             Spacer()
-            Text("Types of Meningitis and The Causes")
+            Text("Other Types of Sepsis/Meningitis and The Causes")
                 .font(.title)
                 .fontWeight(.bold)
                 .multilineTextAlignment(.center)
