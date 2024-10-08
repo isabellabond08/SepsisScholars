@@ -11,12 +11,12 @@ struct Malaria: View {
     var body: some View {
         ScrollView {
             VStack {
-                Text("Types of Malaria and The Causes")
+                Text("Types of Malaria and The Causes and Symptoms")
                     .font(.title)
                     .fontWeight(.bold)
                     .multilineTextAlignment(.center)
                     .padding(.horizontal, 20)
-                Text("Meningitis Symptoms : Stiff neck, Photophobia (sensitivity to bright fight), Sudden onset of fever, Headache, Nausea, Vomiting, and Confusion.")
+                Text("Recent visit to: Sub-Saharan Africa, Asia, Latin America, Middle East, or Tropical swampy areas of Europe; fluid in lungs, anemia, and muscle aches.")
                     .padding(.horizontal, 30)
                     .multilineTextAlignment(.center)
             }

@@ -30,7 +30,7 @@ struct Viraldiseases: View {
                 }
                 .scrollContentBackground(.hidden)
                 .background(.whitenblack)
-                .navigationTitle("Bacterial Sepsis")
+                .navigationTitle("Viral Diseases")
                 .multilineTextAlignment(.center)
                 .foregroundColor(Color("AccentColor"))
                 }
