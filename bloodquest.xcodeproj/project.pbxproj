@@ -27,6 +27,8 @@
 		E4381D492CB2FA780077E275 /* learnpage3.1.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4381D482CB2FA780077E275 /* learnpage3.1.swift */; };
 		E4381D4B2CB2FA860077E275 /* learnpage3.2.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4381D4A2CB2FA860077E275 /* learnpage3.2.swift */; };
 		E44BBF212CA2684400A3B5A0 /* learnpage4.swift in Sources */ = {isa = PBXBuildFile; fileRef = E44BBF202CA2684400A3B5A0 /* learnpage4.swift */; };
+		E45FCA1A2CB76DD60052DDA6 /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E45FCA192CB76DD60052DDA6 /* SwiftUI.framework */; };
+		E45FCA1C2CB76DDD0052DDA6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E45FCA1B2CB76DDD0052DDA6 /* UIKit.framework */; };
 		E4957FC62C9F4DDA00DE05D2 /* FullquestionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4957FC52C9F4DDA00DE05D2 /* FullquestionView.swift */; };
 		E4C1CF882CB4CE55006A7294 /* Supabase in Frameworks */ = {isa = PBXBuildFile; productRef = E4C1CF872CB4CE55006A7294 /* Supabase */; };
 		E4E89BF92CB37C2A002EDC8E /* learnpage3.3.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4E89BF82CB37C2A002EDC8E /* learnpage3.3.swift */; };
@@ -53,7 +55,9 @@
 		E4381D482CB2FA780077E275 /* learnpage3.1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = learnpage3.1.swift; sourceTree = "<group>"; };
 		E4381D4A2CB2FA860077E275 /* learnpage3.2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = learnpage3.2.swift; sourceTree = "<group>"; };
 		E44BBF202CA2684400A3B5A0 /* learnpage4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = learnpage4.swift; sourceTree = "<group>"; };
-		E48E31E72C65277800EDB4D4 /* BloodWise.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BloodWise.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E45FCA192CB76DD60052DDA6 /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		E45FCA1B2CB76DDD0052DDA6 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		E48E31E72C65277800EDB4D4 /* SepsisScholars.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SepsisScholars.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4957FC52C9F4DDA00DE05D2 /* FullquestionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FullquestionView.swift; sourceTree = "<group>"; };
 		E4C1CF892CB4CE82006A7294 /* BloodWise-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "BloodWise-Info.plist"; sourceTree = "<group>"; };
 		E4E89BF82CB37C2A002EDC8E /* learnpage3.3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = learnpage3.3.swift; sourceTree = "<group>"; };
@@ -69,6 +73,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E45FCA1A2CB76DD60052DDA6 /* SwiftUI.framework in Frameworks */,
+				E45FCA1C2CB76DDD0052DDA6 /* UIKit.framework in Frameworks */,
 				E4C1CF882CB4CE55006A7294 /* Supabase in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -156,7 +162,7 @@
 		E48E31E82C65277800EDB4D4 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				E48E31E72C65277800EDB4D4 /* BloodWise.app */,
+				E48E31E72C65277800EDB4D4 /* SepsisScholars.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -176,6 +182,8 @@
 		E4C1CF862CB4CE4F006A7294 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				E45FCA1B2CB76DDD0052DDA6 /* UIKit.framework */,
+				E45FCA192CB76DD60052DDA6 /* SwiftUI.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -183,9 +191,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		E48E31E62C65277800EDB4D4 /* BloodWise */ = {
+		E48E31E62C65277800EDB4D4 /* SepsisScholars */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E48E31F52C65277900EDB4D4 /* Build configuration list for PBXNativeTarget "BloodWise" */;
+			buildConfigurationList = E48E31F52C65277900EDB4D4 /* Build configuration list for PBXNativeTarget "SepsisScholars" */;
 			buildPhases = (
 				E48E31E32C65277800EDB4D4 /* Sources */,
 				E48E31E42C65277800EDB4D4 /* Frameworks */,
@@ -199,12 +207,12 @@
 				E44BBEFF2CA2399D00A3B5A0 /* New Folder */,
 				E44BBF322CA301F200A3B5A0 /* New Group 2 */,
 			);
-			name = BloodWise;
+			name = SepsisScholars;
 			packageProductDependencies = (
 				E4C1CF872CB4CE55006A7294 /* Supabase */,
 			);
 			productName = bloodquest;
-			productReference = E48E31E72C65277800EDB4D4 /* BloodWise.app */;
+			productReference = E48E31E72C65277800EDB4D4 /* SepsisScholars.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -238,7 +246,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				E48E31E62C65277800EDB4D4 /* BloodWise */,
+				E48E31E62C65277800EDB4D4 /* SepsisScholars */,
 			);
 		};
 /* End PBXProject section */
@@ -410,7 +418,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = bloodwyse;
-				DEVELOPMENT_TEAM = 66ZFMBSHZN;
+				DEVELOPMENT_TEAM = P6PV2R9443;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "BloodWise-Info.plist";
@@ -431,8 +439,9 @@
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
 				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
+				SWIFT_VERSION = 6.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
@@ -445,7 +454,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = bloodwyse;
-				DEVELOPMENT_TEAM = 66ZFMBSHZN;
+				DEVELOPMENT_TEAM = P6PV2R9443;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "BloodWise-Info.plist";
@@ -466,8 +475,9 @@
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
 				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
+				SWIFT_VERSION = 6.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
@@ -484,7 +494,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E48E31F52C65277900EDB4D4 /* Build configuration list for PBXNativeTarget "BloodWise" */ = {
+		E48E31F52C65277900EDB4D4 /* Build configuration list for PBXNativeTarget "SepsisScholars" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E48E31F62C65277900EDB4D4 /* Debug */,

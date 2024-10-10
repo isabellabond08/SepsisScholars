@@ -1,12 +1,12 @@
 //
 //  QuizManager.swift
-//  bloodquest
 //
 //  Created by Viviana Rivera on 8/12/24.
 //
 
 import Foundation
 import Supabase
+@MainActor
 
     class QuizManager: ObservableObject {
         

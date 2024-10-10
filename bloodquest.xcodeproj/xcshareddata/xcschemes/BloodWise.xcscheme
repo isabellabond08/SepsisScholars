@@ -16,8 +16,8 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "E48E31E62C65277800EDB4D4"
-               BuildableName = "BloodWise.app"
-               BlueprintName = "BloodWise"
+               BuildableName = "SepsisScholars.app"
+               BlueprintName = "SepsisScholars"
                ReferencedContainer = "container:bloodquest.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -45,8 +45,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "E48E31E62C65277800EDB4D4"
-            BuildableName = "BloodWise.app"
-            BlueprintName = "BloodWise"
+            BuildableName = "SepsisScholars.app"
+            BlueprintName = "SepsisScholars"
             ReferencedContainer = "container:bloodquest.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
@@ -62,8 +62,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "E48E31E62C65277800EDB4D4"
-            BuildableName = "BloodWise.app"
-            BlueprintName = "BloodWise"
+            BuildableName = "SepsisScholars.app"
+            BlueprintName = "SepsisScholars"
             ReferencedContainer = "container:bloodquest.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
@@ -73,6 +73,7 @@
    </AnalyzeAction>
    <ArchiveAction
       buildConfiguration = "Release"
-      revealArchiveInOrganizer = "YES">
+      revealArchiveInOrganizer = "YES"
+      allowsArchivingForSimulator = "YES">
    </ArchiveAction>
 </Scheme>
